@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../Components/Header";
-import Home from "../Components/Home";
-import Footer from "../Components/Footer";
-import About from "../Components/About";
-import Experience from "../components/Experience";
-import Contact from "../components/Contact";
+import Header from "../Components/Header.jsx";
+import Home from "../Components/Home.jsx";
+import Footer from "../Components/Footer.jsx";
+import About from "../Components/About.jsx";
+import Experience from "../components/Experience.jsx";
+import Contact from "../components/Contact.jsx";
 
 function LandingPage() {
   return (
