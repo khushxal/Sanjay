@@ -33,10 +33,10 @@ function Home() {
             height={dimensions.height}
             alt="man"
           />
-          <div class="hr-droid">
-            <div class="hr-line line"></div>
+          <div className="hr-droid">
+            <div className="hr-line line"></div>
             <div>
-              <i class="fa">
+              <i className="fa">
                 <a href="https://www.linkedin.com/in/sanjay-verma-70b47b323">
                   <img
                     src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000"
@@ -47,7 +47,7 @@ function Home() {
                   />
                 </a>
               </i>
-              <i class="fa">
+              <i className="fa">
                 <a href="mailto:rm_indore10@yahoo.com">
                   <img
                     src="https://img.icons8.com/?size=100&id=89362&format=png&color=000000"

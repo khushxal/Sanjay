@@ -7,6 +7,15 @@ function Header() {
       <header className="mb-5">
         <nav className="navbar navbar-expand-lg">
           <div className="container ">
+            <a className="navbar-brand" href="/">
+              <img
+                className=""
+                src="man.png"
+                width={40}
+                height={40}
+                alt="man"
+              />
+            </a>
             <button
               className="navbar-toggler bg-body-secondary"
               type="button"
