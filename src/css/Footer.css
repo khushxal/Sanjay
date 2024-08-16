@@ -1,0 +1,12 @@
+footer {
+  color: white;
+  width: 100%;
+  position: relative;
+  height: 100px;
+  box-shadow: -2px -2px 5px black;
+}
+
+footer > span {
+  font-size: 30px;
+  color: #ecdfcc;
+}

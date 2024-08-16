@@ -1,0 +1,56 @@
+#home-container {
+  color: #b4beb1;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px black;
+  /* filter: drop-shadow(10px 10px 10px black); */
+}
+
+.name {
+  font-size: 55px;
+  font-weight: bold;
+  color: #ecdfcc;
+}
+
+.btn {
+  transition-duration: 2s ease;
+  color: white;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: #b4beb1;
+}
+
+h1 {
+  font-weight: light;
+  color: #ecdfcc;
+}
+
+/* hr icon css */
+
+.hr-droid {
+  display: flex;
+}
+.hr-line {
+  width: 70%;
+  position: relative;
+
+  margin-bottom: 15px;
+  border-bottom: solid;
+}
+.green {
+  border-color: white;
+}
+.fa {
+  position: relative;
+  top: 3px;
+  color: #ff82db;
+  margin-left: 5px;
+}

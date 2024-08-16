@@ -1,0 +1,11 @@
+header {
+  box-shadow: 2px 2px 5px black;
+}
+
+li {
+  color: #eee !important;
+}
+
+li:hover {
+  cursor: pointer;
+}
