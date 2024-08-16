@@ -71,7 +71,7 @@ function Home() {
                 window.open("CV.pdf");
               }}
             >
-              <a href="CV.pdf" className="text-decoration-none" download={true}>
+              <a href="/" className="text-decoration-none">
                 Hire Me
               </a>
             </button>
