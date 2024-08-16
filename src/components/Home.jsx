@@ -65,8 +65,13 @@ function Home() {
           I'm <span className="name"> Sanjay Verma</span>
           <p>"Regional Business Manager"</p>
           <div className="d-flex justify-content-center">
-            <button className="btn ">
-              <a href="" className="text-decoration-none" download={true}>
+            <button
+              className="btn"
+              onClick={() => {
+                window.open("CV.pdf");
+              }}
+            >
+              <a href="CV.pdf" className="text-decoration-none" download={true}>
                 Hire Me
               </a>
             </button>
