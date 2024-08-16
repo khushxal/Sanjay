@@ -17,7 +17,7 @@ function Header() {
               />
             </a>
             <button
-              className="navbar-toggler bg-body-secondary"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarNav"

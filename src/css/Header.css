@@ -9,3 +9,7 @@ li {
 li:hover {
   cursor: pointer;
 }
+
+.navbar-toggler {
+  background-color: #b4beb1;
+}
