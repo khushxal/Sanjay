@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../Components/Header.jsx";
-import Home from "../Components/Home.jsx";
-import Footer from "../Components/Footer.jsx";
-import About from "../Components/About.jsx";
+import Header from "../components/Header.jsx";
+import Home from "../components/Home.jsx";
+import Footer from "../components/Footer.jsx";
+import About from "../components/About.jsx";
 import Experience from "../components/Experience.jsx";
 import Contact from "../components/Contact.jsx";
 
