@@ -4,22 +4,6 @@ import { isMobile } from "react-device-detect";
 function Home() {
   const [dimensions, setDimensions] = useState({ width: 500, height: 500 });
 
-  const [jobs, setJobs] = useState([]);
-
-  async function getAllJobs() {
-    try {
-      const response = await fetch("/jobs.json");
-      const data = await response.json();
-      setJobs(await data);
-    } catch (error) {
-      console.log(error);
-    }
-  }
-
-  useEffect(function () {
-    getAllJobs();
-  }, []);
-
   useEffect(() => {
     const updateDimensions = () => {
       const isMobile = window.innerWidth <= 768;
@@ -79,7 +63,7 @@ function Home() {
         </div>
         <div className="col-lg-4 fs-3 d-flex flex-column mx-auto my-auto">
           I'm <span className="name"> Sanjay Verma</span>
-          <p>"{jobs[0].role}"</p>
+          <p>"ASE - Area Sale Executive"</p>
           <div className="d-flex justify-content-center">
             <button
               className="btn"
