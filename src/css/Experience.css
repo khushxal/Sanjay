@@ -1,4 +1,5 @@
 .exp-line {
-  border-left: 10px solid #b4beb1;
+  border-left: 6px solid #b4beb1;
+  /* border-left: 6px solid #ecdfcc; */
   height: auto;
 }

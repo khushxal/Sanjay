@@ -7,8 +7,8 @@ function Home() {
   useEffect(() => {
     const updateDimensions = () => {
       const isMobile = window.innerWidth <= 768;
-      const newWidth = isMobile ? window.innerWidth * 0.6 : 500;
-      const newHeight = isMobile ? window.innerWidth * 0.6 : 500;
+      const newWidth = isMobile ? window.innerWidth * 0.37 : 500;
+      const newHeight = isMobile ? window.innerWidth * 0.37 : 500;
       setDimensions({ width: newWidth, height: newHeight });
     };
 
@@ -22,7 +22,7 @@ function Home() {
     <div id="home-container" className="container">
       <div
         className={`row flex-lg-row-reverse text-center ${
-          isMobile && "gap-5"
+          isMobile && "gap-3"
         } `}
       >
         <div className="col-lg-8">
@@ -35,7 +35,7 @@ function Home() {
           />
           <div className="hr-droid">
             <div className="hr-line line"></div>
-            <div>
+            <div className="">
               <i className="fa">
                 <a href="https://www.linkedin.com/in/sanjay-verma-70b47b323">
                   <img
@@ -59,6 +59,7 @@ function Home() {
                 </a>
               </i>
             </div>
+            <div className="hr-line-10 line"></div>
           </div>
         </div>
         <div className="col-lg-4 fs-3 d-flex flex-column mx-auto my-auto">

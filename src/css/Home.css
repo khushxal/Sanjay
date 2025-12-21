@@ -37,14 +37,22 @@ h1 {
 
 .hr-droid {
   display: flex;
+  gap: 0.3rem;
 }
 .hr-line {
-  width: 70%;
+  width: 60%;
   position: relative;
-
   margin-bottom: 15px;
   border-bottom: solid;
 }
+
+.hr-line-10 {
+  width: 10%;
+  position: relative;
+  margin-bottom: 15px;
+  border-bottom: solid;
+}
+
 .green {
   border-color: white;
 }
