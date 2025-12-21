@@ -5,20 +5,20 @@ function Contact() {
     <div id="contact" className="container my-5 text-white">
       <h1>Contact Me</h1>
       <hr />
-      <div className="row my-5">
-        <div className="col mb-2 text-lg-center">
+      <div className="d-flex flex-column flex-lg-row my-5">
+        <div className="col mb-2">
           <img
             className="p-1"
-            src="https://img.icons8.com/?size=100&id=89362&format=png&color=000000"
+            src="https://img.icons8.com/?size=100&id=9729&format=png&color=000000"
             alt=""
             height={40}
             width={40}
           />
-          <span className="ms-2 fs-3 ">
-            <a href="mailto:rm_indore10@yahoo.com">rm_indore10@yahoo.com</a>{" "}
+          <span className="ms-2 fs-3">
+            <a href="tel:+919826189859">9826189859</a>
           </span>
         </div>
-        <div className="col mb-2 text-lg-center">
+        <div className="col mb-2">
           <img
             src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000"
             className="p-1"
@@ -32,16 +32,16 @@ function Contact() {
             </a>{" "}
           </span>
         </div>
-        <div className="mb-2 text-lg-center">
+        <div className="col mb-2">
           <img
             className="p-1"
-            src="https://img.icons8.com/?size=100&id=9729&format=png&color=000000"
+            src="https://img.icons8.com/?size=100&id=89362&format=png&color=000000"
             alt=""
             height={40}
             width={40}
           />
-          <span className="ms-2 fs-3">
-            <a href="tel:+919826189859">9826189859</a>
+          <span className="ms-2 fs-3 ">
+            <a href="mailto:rm_indore10@yahoo.com">rm_indore10@yahoo.com</a>{" "}
           </span>
         </div>
       </div>

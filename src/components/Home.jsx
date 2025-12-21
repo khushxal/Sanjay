@@ -63,7 +63,7 @@ function Home() {
         </div>
         <div className="col-lg-4 fs-3 d-flex flex-column mx-auto my-auto">
           I'm <span className="name"> Sanjay Verma</span>
-          <p>"ASE - Area Sale Executive"</p>
+          <p>"RBM - Regional Business Manager"</p>
           <div className="d-flex justify-content-center">
             <button
               className="btn"
