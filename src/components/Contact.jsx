@@ -5,7 +5,7 @@ function Contact() {
     <div id="contact" className="container my-5 text-white">
       <h1>Contact Me</h1>
       <hr />
-      <div className="d-flex flex-column flex-lg-row my-5">
+      <div className="d-flex flex-column flex-lg-row my-2">
         <div className="col mb-2">
           <img
             className="p-1"
@@ -14,7 +14,7 @@ function Contact() {
             height={40}
             width={40}
           />
-          <span className="ms-2 fs-3">
+          <span className="ms-2 fs-5">
             <a href="tel:+919826189859">9826189859</a>
           </span>
         </div>
@@ -26,7 +26,7 @@ function Contact() {
             height={40}
             width={40}
           />
-          <span className="ms-2 fs-3 ">
+          <span className="ms-2 fs-5 ">
             <a href="https://www.linkedin.com/in/sanjay-verma-70b47b323">
               LinkedIn
             </a>{" "}
@@ -40,7 +40,7 @@ function Contact() {
             height={40}
             width={40}
           />
-          <span className="ms-2 fs-3 ">
+          <span className="ms-2 fs-5 ">
             <a href="mailto:rm_indore10@yahoo.com">rm_indore10@yahoo.com</a>{" "}
           </span>
         </div>

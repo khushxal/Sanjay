@@ -23,11 +23,11 @@ function Experience() {
       {jobs.map((job, index) => (
         <div className="exp-line my-4 " key={index}>
           <div className="job ms-2">
-            <div className="job-role fw-medium fs-2">{job.role}</div>
+            <div className="job-role fw-medium fs-4">{job.role}</div>
             <div className="job-company fs-4 text-decoration-underline">
               {job.company}
             </div>
-            <div className="job-description fs-5">{job.description}</div>
+            <div className="job-description fs-6">{job.description}</div>
             <div className="job-duration fw-light">{job.duration}</div>
           </div>
         </div>

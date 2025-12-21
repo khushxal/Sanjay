@@ -6,9 +6,9 @@ function About() {
       <h1>About</h1>
       <hr />
       <div className="row">
-        <div className="col fs-4" style={{ textAlign: "justify" }}>
+        <div className="col fs-6" style={{ textAlign: "justify" }}>
           <div>
-            With over 24 years of dedicated experience in the pharmaceutical
+            With over 25 years of dedicated experience in the pharmaceutical
             industry, I have honed my expertise across various domains,
             contributing to the growth and success of leading pharma companies.
             My journey in this field has been marked by a relentless pursuit of
@@ -28,7 +28,7 @@ function About() {
       <h1>Goal</h1>
       <hr />
       <div className="row">
-        <div className="col fs-4" style={{ textAlign: "justify" }}>
+        <div className="col fs-6" style={{ textAlign: "justify" }}>
           <div>
             I am passionate about driving meaningful change in the
             pharmaceutical industry, with a focus on continuous learning and
